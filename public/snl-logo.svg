@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="100%" height="100%">
+  <defs>
+    <!-- Outer Top Blue Chevron Gradient -->
+    <linearGradient id="topOuterGrad" x1="15%" y1="60%" x2="85%" y2="20%">
+      <stop offset="0%" stop-color="#00A3E0" />
+      <stop offset="35%" stop-color="#1B75D0" />
+      <stop offset="70%" stop-color="#2454B5" />
+      <stop offset="100%" stop-color="#2E3192" />
+    </linearGradient>
+
+    <!-- Top Inner Gold Wedge Gradient -->
+    <linearGradient id="topInnerGrad" x1="10%" y1="70%" x2="90%" y2="30%">
+      <stop offset="0%" stop-color="#FFDD00" />
+      <stop offset="45%" stop-color="#F7931E" />
+      <stop offset="100%" stop-color="#E03A14" />
+    </linearGradient>
+
+    <!-- Outer Bottom Blue Chevron Gradient -->
+    <linearGradient id="bottomOuterGrad" x1="15%" y1="30%" x2="85%" y2="80%">
+      <stop offset="0%" stop-color="#00A3E0" />
+      <stop offset="35%" stop-color="#0080D0" />
+      <stop offset="70%" stop-color="#1F56B7" />
+      <stop offset="100%" stop-color="#2E3192" />
+    </linearGradient>
+
+    <!-- Bottom Inner Gold Wedge Gradient -->
+    <linearGradient id="bottomInnerGrad" x1="10%" y1="30%" x2="90%" y2="70%">
+      <stop offset="0%" stop-color="#FFDD00" />
+      <stop offset="45%" stop-color="#F7931E" />
+      <stop offset="100%" stop-color="#E03A14" />
+    </linearGradient>
+
+    <!-- Center SNL Text Gradient -->
+    <linearGradient id="snlTextGrad" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#0072CE" />
+      <stop offset="30%" stop-color="#1E4CB0" />
+      <stop offset="65%" stop-color="#2E389B" />
+      <stop offset="85%" stop-color="#0084DE" />
+      <stop offset="100%" stop-color="#00A3E0" />
+    </linearGradient>
+  </defs>
+
+  <!-- TOP CHEVRON & WEDGE -->
+  <g id="topWing">
+    <!-- Outer Diamond Top Half Wing -->
+    <path d="M 535 50 L 795 340 L 635 205 L 540 250 L 440 280 L 260 380 L 145 455 L 535 50 Z" 
+          fill="url(#topOuterGrad)" />
+    
+    <!-- Top Inner Warm Wedge -->
+    <path d="M 445 295 L 685 348 L 792 365 L 540 270 L 445 295 Z" 
+          fill="url(#topInnerGrad)" />
+  </g>
+
+  <!-- BOTTOM CHEVRON & WEDGE -->
+  <g id="bottomWing">
+    <!-- Outer Diamond Bottom Half Wing -->
+    <path d="M 145 545 L 260 620 L 440 720 L 540 750 L 635 795 L 795 660 L 535 950 L 145 545 Z" 
+          fill="url(#bottomOuterGrad)" />
+    
+    <!-- Bottom Inner Warm Wedge -->
+    <path d="M 445 705 L 540 730 L 792 635 L 685 652 L 445 705 Z" 
+          fill="url(#bottomInnerGrad)" />
+  </g>
+
+  <!-- CENTER "SNL" WORDMARK -->
+  <g id="snlText">
+    <!-- Letter S -->
+    <path d="M 235 415 L 380 415 C 395 415 400 422 400 435 L 400 455 C 400 468 392 475 375 475 L 285 475 C 265 475 250 485 250 505 L 250 545 C 250 562 262 570 280 570 L 375 570 L 350 535 L 298 535 L 298 515 L 380 515 C 402 515 415 502 415 480 L 415 445 C 415 422 400 410 375 410 L 255 410 L 235 415 Z"
+          fill="url(#snlTextGrad)" />
+    <path d="M 205 455 L 245 420 L 375 420 C 390 420 398 425 398 438 L 398 448 L 290 448 C 260 448 245 465 245 495 L 245 530 C 245 558 260 568 290 568 L 380 568 L 355 535 L 295 535 C 285 535 280 530 280 522 L 280 515 L 375 515 C 402 515 415 500 415 475 L 415 448 C 415 422 398 408 370 408 L 225 408 L 195 440 L 205 455 Z"
+          fill="url(#snlTextGrad)" />
+
+    <!-- Letter N -->
+    <path d="M 415 415 L 452 415 L 452 490 L 545 415 L 595 415 L 595 565 L 550 565 L 550 488 L 455 565 L 415 565 Z"
+          fill="url(#snlTextGrad)" />
+
+    <!-- Letter L -->
+    <path d="M 628 415 L 675 415 L 675 528 L 795 528 L 765 565 L 628 565 Z"
+          fill="url(#snlTextGrad)" />
+  </g>
+</svg>

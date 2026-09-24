@@ -1,0 +1,6 @@
+{
+  "name": "SNL RICH Eco",
+  "description": "Multi-vendor e-commerce platform for products, services, and precious metals with delivery tracking and local bank payments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
